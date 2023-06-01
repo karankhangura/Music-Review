@@ -1,0 +1,43 @@
+* {
+    color: white;
+    font-family: 'Dongle', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+body {
+    background-color: #2A3343;
+}
+a, button {
+    text-decoration: none;
+}
+a:hover, a:not(:hover), button:hover, button:not(:hover) {
+    transition: 0.3s;
+}
+#navbar {
+    background-color: #1C2330;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#listenup-name {
+    color: white;
+    font-size: 42px;
+    padding-left: 30px;
+}
+#nav-right {
+	display: flex;
+}
+.nav-link, .disabled {
+    color: white;
+    font-size: 28px;
+    font-weight: 300;
+    padding: 0 30px;
+}
+.nav-link:hover, #spotify-nav {
+    color: #2D7D19;
+}
+#spotify-nav:hover {
+    color: #49c929;
+}
